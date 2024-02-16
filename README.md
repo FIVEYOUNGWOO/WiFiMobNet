@@ -9,7 +9,7 @@
 * I hope that this approach and research will be further activated as a practical way to prevent crime in areas where CCTV deployment is restricted to protect personal information.
 
 # Project Members
-#### [Youngwoo Oh (M.S. student, Project leader from May 2023 to Feb. 2024 (for 9 months))](https://ohyoungwoo.com/)
+#### [Youngwoo Oh](https://ohyoungwoo.com/) (M.S. student, Project leader from May 2023 to Feb. 2024 (for 9 months))
 - Integrated data fusion between WiFi signals and captured video from the router and cameras by developing the [Linux toolkit codes](https://github.com/FIVEYOUNGWOO/IEEE-802.11n-CSI-Camera-Synchronization-Toolkit).
 - Responsible for data fusion and SW/HW configuration and Produced a Teacher-Student approach to detect and track objects beyond walls and obstacles.
 - Wrote papers for the [2024 Winter Conference on Korea Information and Communications Society (KICS)](https://conf.kics.or.kr/) titled "*Collection and Analysis of CSI in IEEE 802.11n Wireless LAN Environments for WiFi Signal-Based Human Mobility Detection (special session)*" and "*Design and Implementation of a MultiModal Learning Model for RF-Based Object Tracking Methods (recent results)*".
@@ -27,7 +27,7 @@
 - Engaged in developing and investigating the Student network in the multimodal AI model.
 - Responsible for an analysis of WiFi signal features according to human posture and movement.
 
-#### [Jungtae Kang (Undergraduate student, Project follower)](https://kangjeongtae.com/)
+#### [Jungtae Kang](https://kangjeongtae.com/) (Undergraduate student, Project follower)
 - Investigation of pose adjacency matrix for Student Network training
 - Tuning the multimodal learning model in terms of optimizing hyper-parameters.
 - In his future research, he will follow up on this "*Novel multi-modal approaches-based object detection/tracking/recognition methods*".
