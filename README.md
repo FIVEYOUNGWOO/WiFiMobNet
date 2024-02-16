@@ -31,3 +31,13 @@
 - Investigation of pose adjacency matrix for Student Network training
 - Tuning the multimodal learning model in terms of optimizing hyper-parameters.
 - In his future research, he will follow up on this "*Novel multi-modal approaches-based object detection/tracking/recognition methods*".
+
+# Evaluation of WiFi-camera multimodal approach
+- We tested the trained model with 100 random samples. The results indicate that the pre-trained multimodal model can closely estimate real human posture for each sample. However, the model requires further improvement to estimate object motion more accurately and adaptively in different environments. In our future work, we plan to expand the multimodal approach to include multiple Teacher-Student architectures and federated learning to achieve zero configuration.
+
+<table>
+  <tr>
+    <td><img src="/README_images/estimation 1.jpg" width="500" height="300"/></td>
+    <td><img src="/README_images/estimation 2.jpg" width="500" height="300"/></td>
+  </tr>
+</table>
