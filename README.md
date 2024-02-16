@@ -37,7 +37,7 @@
 
 <table>
   <tr>
-    <td><img src="/README_images/estimation 1.jpg" width="500" height="300"/></td>
-    <td><img src="/README_images/estimation 2.jpg" width="500" height="300"/></td>
+    <td><img src="/README_images/estimation 1.png" width="450" height="300"/></td>
+    <td><img src="/README_images/estimation 2.png" width="450" height="300"/></td>
   </tr>
 </table>
