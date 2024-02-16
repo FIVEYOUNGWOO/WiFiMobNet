@@ -25,4 +25,9 @@
 
 #### Manal Mosharaf (M.S. student, Project member)
 - Engaged in developing and investigating the Student network in the multimodal AI model.
-- Responsible for an analysis of WiFi signal features according to human pose, and movement.
+- Responsible for an analysis of WiFi signal features according to human posture and movement.
+
+#### [Jungtae Kang (Undergraduate student, Project follower)](https://kangjeongtae.com/)
+- Investigation of pose adjacency matrix for Student Network training
+- Tuning the multimodal learning model in terms of optimizing hyper-parameters.
+- In his future research, he will follow up on this "*Novel multi-modal approaches-based object detection/tracking/recognition methods*".
