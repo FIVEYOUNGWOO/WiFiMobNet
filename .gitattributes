@@ -1,0 +1,2 @@
+/TeacherNet/models/sppe/duc_se.pth filter=lfs diff=lfs merge=lfs -text
+/TeacherNet/models/yolo/yolov3-spp.weights filter=lfs diff=lfs merge=lfs -text
