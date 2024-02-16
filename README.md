@@ -8,6 +8,16 @@
 
 * I hope that this approach and research will be further activated as a practical way to prevent crime in areas where CCTV deployment is restricted to protect personal information.
 
+# Evaluation of WiFi-camera multimodal approach
+- We tested the trained model with 100 random samples. The results indicate that the pre-trained multimodal model can closely estimate real human posture for each sample. However, the model requires further improvement to estimate object motion more accurately and adaptively in different environments. In our future work, we plan to expand the multimodal approach to include multiple Teacher-Student architectures and federated learning to achieve zero configuration.
+
+<table>
+  <tr>
+    <td><img src="/README_images/estimation 1.png" width="500" height="320"/></td>
+    <td><img src="/README_images/estimation 2.png" width="500" height="320"/></td>
+  </tr>
+</table>
+
 # Project Members
 #### [Youngwoo Oh](https://ohyoungwoo.com/) (M.S. student, Project leader from May 2023 to Feb. 2024 (for 10 months))
 - Integrated data fusion between WiFi signals and captured video from the router and cameras by developing the [Linux toolkit codes](https://github.com/FIVEYOUNGWOO/IEEE-802.11n-CSI-Camera-Synchronization-Toolkit).
@@ -31,13 +41,3 @@
 - Investigation of pose adjacency matrix for Student Network training
 - Tuning the multimodal learning model in terms of optimizing hyper-parameters.
 - In his future research, he will follow up on this "*Novel multi-modal approaches-based object detection/tracking/recognition methods*".
-
-# Evaluation of WiFi-camera multimodal approach
-- We tested the trained model with 100 random samples. The results indicate that the pre-trained multimodal model can closely estimate real human posture for each sample. However, the model requires further improvement to estimate object motion more accurately and adaptively in different environments. In our future work, we plan to expand the multimodal approach to include multiple Teacher-Student architectures and federated learning to achieve zero configuration.
-
-<table>
-  <tr>
-    <td><img src="/README_images/estimation 1.png" width="500" height="320"/></td>
-    <td><img src="/README_images/estimation 2.png" width="500" height="320"/></td>
-  </tr>
-</table>
