@@ -18,7 +18,7 @@
 
 #### Islam Helemy (Ph.D. student, Project member)
 - Responsible for the development of the Multimodal AI and the pre-processing to generate training data pairs (CSI samples-captured images).
-- He will receive a *project leader* position on this future project after Feb. 2024.
+- He will receive a *project leader* position on this future project after Mar. 2024.
 
 #### Iftikhar Ahmad (Ph.D. student, Project member)
 - Focused on developing and investigating the Teacher network in the multimodal AI model.
