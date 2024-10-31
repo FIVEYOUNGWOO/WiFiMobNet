@@ -19,20 +19,20 @@
 
 # Project Members
 #### [Youngwoo Oh](https://ohyoungwoo.com/) (M.S. student, Project leader from May 2023 to Feb. 2024 (for 10 months))
-- Integrated data fusion between WiFi signals and captured video from the router and cameras by developing the [Linux toolkit codes](https://github.com/FIVEYOUNGWOO/IEEE-802.11n-CSI-Camera-Synchronization-Toolkit).
+- Integrated data fusion between WiFi signals and captured video from the conventional WiFi router and USB camera by developing the [Linux toolkit codes](https://github.com/FIVEYOUNGWOO/IEEE-802.11n-CSI-Camera-Synchronization-Toolkit).
 - Responsible for data fusion and SW/HW configuration and Produced a Teacher-Student approach to detect and track objects beyond walls and obstacles.
 - Wrote papers for the [2024 Winter Conference on Korea Information and Communications Society (KICS)](https://conf.kics.or.kr/) titled "*Collection and Analysis of CSI in IEEE 802.11n Wireless LAN Environments for WiFi Signal-Based Human Mobility Detection (special session)*" and "*Design and Implementation of a MultiModal Learning Model for RF-Based Object Tracking Methods (recent results)*".
 
 #### Islam Helemy (Ph.D. student, Project member)
-- Responsible for the development of the Multimodal AI and the pre-processing to generate training data pairs (CSI samples-captured images).
+- Responsible for developing the Multimodal AI and the pre-processing to generate training data pairs (CSI samples-captured images).
 - He will receive a *project leader* position on this future project after Mar. 2024.
 
 #### Iftikhar Ahmad (Ph.D. student, Project member)
 - Focused on developing and investigating the Teacher network in the multimodal AI model.
 
 #### Manal Mosharaf (M.S. student, Project member)
-- Engaged in developing and investigating the Student network in the multimodal AI model.
-- Responsible for an analysis of WiFi signal features according to human posture and movement.
+- Developed and investigated the Student network using the multimodal AI model.
+- Responsible for analysis of the WiFi signal features according to human posture and movement.
 
 #### [Jungtae Kang](https://kangjeongtae.com/) (Undergraduate student, Project follower)
 - Investigation of pose adjacency matrix for Student Network training.
