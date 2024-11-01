@@ -14,9 +14,9 @@
 
 <table>
   <tr>
-    <td><img src="/README_images/estimation_1.png" width="300" height="320"/></td>
-    <td><img src="/README_images/estimation_2.png" width="300" height="320"/></td>
-    <td><img src="/README_images/estimation_3.png" width="300" height="320"/></td>
+    <td><img src="/README_images/estimation_1.png" width="320" height="320"/></td>
+    <td><img src="/README_images/estimation_2.png" width="320" height="320"/></td>
+    <td><img src="/README_images/estimation_3.png" width="320" height="320"/></td>
   </tr>
 </table>
 
