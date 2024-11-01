@@ -6,6 +6,8 @@
   
 * A multimodal approach that additionally utilizes WiFi signals can complement problems such as obstacles and object obscuration that occur in existing camera-based security and computer vision through the radio frequency (RF) signal characteristics.
 
+# Teacher-student architecture for person pose estimation
+- We implemented a Teacher-Student architecture framework to train on captured WiFi signals and images. The **Teacher Network** uses a **Person Detector** and **Pose Regressor** to predict precise position coordinates \((x, y, c)\), serving as ground truth data. The **Student Network** encodes WiFi signals, extracting relevant features through an Encoder-Decoder structure to estimate motion. The **Pose Adjacent Matrix (PAM)** is a shared representation between the Teacher and Student networks, facilitating alignment of pose estimations. PAM enables the Student network to refine its predictions by minimizing the L2 loss with the Teacher's output, effectively transferring knowledge and enhancing motion estimation accuracy.
 
 # Evaluation of WiFi-camera multimodal approach
 - We tested the trained model with 100 random samples. The results indicate that the pre-trained multimodal model can closely estimate real human posture for each sample. However, the model requires further improvement to estimate object motion more accurately and adaptively in different environments. In our future work, we plan to expand the multimodal approach to include multiple Teacher-Student architectures and federated learning to achieve zero configuration.
