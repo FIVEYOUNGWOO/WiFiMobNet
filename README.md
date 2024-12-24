@@ -8,7 +8,7 @@
 
 # Teacher-student architecture for person pose estimation
 - We implemented a Teacher-Student architecture framework to train on captured WiFi signals and images. The **Teacher** network utilizes a **Person Detector** and a **Pose Regressor** to decide precise position coordinates $(x', y', c')$, serving as ground truth data. The **Student** network encodes WiFi signals to estimate motion, extracting relevant features through an **Encoder-Decoder** structure. The **Pose Adjacent Matrix (PAM)** serves as a shared representation between the Teacher and Student networks, facilitating the alignment of pose estimations. PAM enables the Student network to refine its predictions by minimizing the similarity loss with the Teacher's output, effectively transferring information through knowledge distillation and enhancing motion estimation accuracy. 
-- Specifically, the prediction process minimizes the similarity loss between the Teacher's output $(x', y', c')$ and the Student's predictions $(x*, y*)$, where $c'$ represents an entropy coefficient contributing to the loss function.
+- Specifically, the prediction process minimizes the similarity loss between the Teacher's output $(x', y', c')$ and the Student's predictions $(x^*, y^*)$, where $c'$ represents an entropy coefficient contributing to the loss function.
 
 ![Teacher-Student Framework](/README_images/teacher-student.PNG)
 
