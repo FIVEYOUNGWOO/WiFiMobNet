@@ -29,10 +29,10 @@
 
 #### Islam Helemy (Ph.D. student, Project member)
 - Responsible for developing the Multimodal AI and the pre-processing to generate training data pairs (CSI samples-captured images).
-- He will receive a *project leader* position on this future project after Mar. 2024.
 
 #### Iftikhar Ahmad (Ph.D. student, Project member)
 - Focused on developing and investigating the Teacher network in the multimodal AI model.
+- He will receive a *Project manager* position on this future project after Mar. 2024.
 
 #### Manal Mosharaf (M.S. student, Project member)
 - Developed and investigated the Student network using the multimodal AI model.
