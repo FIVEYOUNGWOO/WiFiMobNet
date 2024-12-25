@@ -1,7 +1,7 @@
 # WiFiMobNet (early version)
 : WiFi-Camera fusion-based object mobility detection and motion estimation via Teacher-Studnet multimodal AI approach
 
-* This repository is part of an early-stage WiFi and camera data fusion-based human detection and motion estimation project. Through the '*Project Manual.doc*', you can utilize the initial project after adjusting it to the environment.
+* This repository is part of an early-stage WiFi and camera sensor fusion-based human detection and motion estimation project. Through the '*Project Manual.doc*', you can utilize the initial project after adjusting it to the environment.
 * The goal of our research is to develop a multimodal-based computer vision technology to detect and track objects beyond walls by adding IEEE 802.11 standard WiFi signals.
   
 * A multimodal approach that additionally utilizes WiFi signals can complement problems such as obstacles and object obscuration that occur in existing camera-based security and computer vision through the radio frequency (RF) signal characteristics.
