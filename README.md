@@ -1,14 +1,11 @@
 # WiFiMobNet (early version)
 : WiFi-Camera fusion-based object mobility detection and motion estimation via Teacher-Studnet multimodal AI approach
-
-* This repository is part of an early-stage WiFi and camera sensor fusion-based human detection and motion estimation project. Through the '*Project Manual.doc*', you can utilize the initial project after adjusting it to the environment.
-* The goal of our research is to develop a multimodal-based computer vision technology to detect and track objects beyond walls by adding IEEE 802.11 standard WiFi signals.
-  
-* A multimodal approach that additionally utilizes WiFi signals can complement problems such as obstacles and object obscuration that occur in existing camera-based security and computer vision through the radio frequency (RF) signal characteristics.
+* This repository is part of an early-stage WiFi and camera sensor fusion-based human detection and motion estimation project. Through the '*Project Manual.doc*', you can utilize the initial project after adjusting it to the environment. Our research aims to develop a multimodal-based computer vision technology to detect and track objects beyond walls by adding IEEE 802.11 standard WiFi signals. A multimodal approach utilizing WiFi signals can complement problems such as obstacles and object obscuration in existing camera-based security and computer vision through the radio frequency (RF) signal characteristics.
 
 # Teacher-student architecture for person pose estimation
-- We implemented a Teacher-Student architecture framework to train on captured WiFi signals and images. The **Teacher** network utilizes a **Person Detector** and a **Pose Regressor** to decide precise position coordinates $(x', y', c')$, serving as ground truth data. The **Student** network encodes WiFi signals to estimate motion, extracting relevant features through an **Encoder-Decoder** structure. The **Pose Adjacent Matrix (PAM)** serves as a shared representation between the Teacher and Student networks, facilitating the alignment of pose estimations. PAM enables the Student network to refine its predictions by minimizing the similarity loss with the Teacher's output, effectively transferring information through knowledge distillation and enhancing motion estimation accuracy. 
-- Specifically, the prediction process minimizes the similarity loss between the Teacher's output $(x', y', c')$ and the Student's predictions $(x*, y*)$, where $c'$ represents an entropy coefficient contributing to the loss function.
+* We implemented a Teacher-Student architecture framework to train on captured WiFi signals and images. The **Teacher** network utilizes a **Person Detector** and a **Pose Regressor** to decide precise position coordinates $(x', y', c')$, serving as ground truth data. The **Student** network encodes WiFi signals to estimate motion, extracting relevant features through an **Encoder-Decoder** structure.
+* The **Pose Adjacent Matrix (PAM)** serves as a shared representation between the Teacher and Student networks, facilitating the alignment of pose estimations. PAM enables the Student network to refine its predictions by minimizing the similarity loss with the Teacher's output, effectively transferring information through knowledge distillation and enhancing motion estimation accuracy. 
+* Specifically, the prediction process minimizes the similarity loss between the Teacher's output $(x', y', c')$ and the Student's predictions $(x*, y*)$, where $c'$ represents an entropy coefficient contributing to the loss function.
 
 ![Teacher-Student Framework](/README_images/teacher-student.PNG)
 
